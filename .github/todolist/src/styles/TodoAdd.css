@@ -1,0 +1,68 @@
+.detail-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem 2rem;
+  background-color: rgb(45, 140, 207);
+  min-height: 100vh;
+}
+
+.detail-card {
+  background: white;
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 70vh;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.08);
+}
+
+.detail-card h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.detail-card label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background-color: #f9f9ff;
+}
+
+textarea.input-field {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2.5rem;
+}
+
+.save-button {
+  background-color: rgb(208, 214, 248);
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
