@@ -1,0 +1,39 @@
+# ✅ Node.js 라이브러리 폴더
+node_modules/
+
+# ✅ 빌드 결과물 (Vite, React)
+dist/
+
+# ✅ 환경 변수 파일 (.env는 절대 올리면 안 됨)
+.env
+.env.local
+.env.*.local
+
+# ✅ Firebase 설정/로그 파일
+.firebase/
+firebase-debug.log*
+.firebaserc
+
+# ✅ Windows 시스템 파일
+Thumbs.db
+desktop.ini
+
+# ✅ 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ✅ VSCode 에디터 설정
+.vscode/
+
+# ✅ 테스트 커버리지
+coverage/
+
+# ✅ 임시 파일
+*.log
+*.tmp
+*.swp
+
+# ✅ IDE 설정 파일 (JetBrains, WebStorm 등)
+.idea/
